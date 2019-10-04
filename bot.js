@@ -22,7 +22,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '!help'){
         message.channel.send('#credits')
     }
 });
